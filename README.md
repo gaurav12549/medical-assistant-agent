@@ -1,6 +1,7 @@
 🧠 AI-Powered Medical Assistant
 
 An intelligent medical assistant that combines rule-based triage + local LLM (Ollama) to analyze user symptoms and provide safe, structured health guidance.
+==================================================================================================================
 
 🚀 Features
 🔍 Symptom Analysis
@@ -16,6 +17,7 @@ Self-care
 Provides immediate actionable advice
 🤖 LLM-Based Analysis (Local AI)
 
+===================================================================================================================
 Powered by Ollama:
 
 Runs fully offline (no internet required)
@@ -33,6 +35,8 @@ When to see a doctor
 
 👉 Ensures consistent, useful responses (no unnecessary follow-up questions)
 
+===================================================================================================================
+
 🎨 Enhanced User Experience
 ⏳ Loader animation during AI processing (st.spinner)
 🌙 Dark theme UI using .streamlit/config.toml
@@ -42,12 +46,18 @@ When to see a doctor
 Avoids definitive diagnoses
 Encourages professional medical consultation
 Emergency detection handled via rule-based system
+
+===================================================================================================================
+
 🏗️ Tech Stack
 Language: Python 3
 Frontend/UI: Streamlit
 LLM Runtime: Ollama
 ML (optional): Scikit-learn
 HTTP Client: Requests
+
+===================================================================================================================
+
 📂 Project Structure
 medical-assistant/
 │
@@ -56,6 +66,9 @@ medical-assistant/
 │   └── config.toml         # Theme configuration (dark mode)
 ├── requirements.txt
 └── README.md
+
+===================================================================================================================
+
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone <your-repo-url>
@@ -97,6 +110,9 @@ response = requests.post(
         "stream": False
     }
 )
+
+===================================================================================================================
+
 🎨 UI Configuration
 Dark Theme (.streamlit/config.toml)
 [theme]
@@ -115,6 +131,9 @@ Output:
 
 Emergency triage
 Suggest calling 108 / 112 (India)
+
+===================================================================================================================
+
 ⚠️ Disclaimer
 This tool is for informational purposes only
 It does not provide medical diagnosis
