@@ -1,0 +1,129 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Streamlit Medical Assistant",
+			"type": "shell",
+			"command": "streamlit",
+			"args": [
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant (venv)",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant (venv, .env)",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant (venv)",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant (venv)",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant (venv)",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant (venv)",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Run Streamlit Medical Assistant",
+			"type": "shell",
+			"command": "c:/Workspace/medical assistant agent/.venv/Scripts/python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
